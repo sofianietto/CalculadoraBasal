@@ -4,7 +4,7 @@
 
 body{
     font-family:'Josefin Sans';
-    background-image: url("imagen/degrade.png");
+    background-image: url("degrade.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,7 +28,6 @@ h1{
 #calculadora{
     background: rgb(255,127,168);
     background: linear-gradient(180deg, rgba(255,127,168,1) 0%, rgba(255,243,213,1) 100%);
-      
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -36,13 +35,12 @@ h1{
 }
 
 #detalle{
-    background: rgb(255,127,168);
-    background: linear-gradient(180deg, rgba(255,127,168,1) 0%, rgba(255,243,213,1) 100%);
+    background:rgba(255,243,213);
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
     float: left;
-    color: rgb(210, 90, 148);
+    color: rgb(255, 127, 168);
     text-align: center;
 
 }
@@ -57,14 +55,10 @@ h1{
 }
 .contenido2{
     
-    width:250px;
-    margin:10px 40px;
+   
     font-size: medium;
     background-color:rgba(255,243,213);
-    box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
-    -webkit-box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
-    -moz-box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
-    color: rgb(255, 127, 168); 
+    
     /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
     top: 50%;
@@ -78,16 +72,18 @@ input {
 	width: 70%;
     padding: 12px 15px;
     border: none;
-    background-color: #eee;
+    background-color: white;
 }
 
 button {
-  font-size: 15px;
+   
+    margin-top: 10px;
+    font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: rgb(210, 90, 148);
-	border: 1px solid rgb(210, 90, 148);
+	background-color: rgb(255, 127, 168);
+	border: 3px solid rgb(210, 90, 148);
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
