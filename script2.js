@@ -13,11 +13,13 @@ function calcular(){
             MET1.style.display="block"
             MET2.style.display="none"
             METS.style.display="none"
+            error.style.display="none"
         }else{
             superficie(peso)
             MET2.style.display="block"
             MET1.style.display="none"
             METS.style.display="none"
+            error.style.display="none"
         }
     }
     else{
@@ -30,7 +32,6 @@ function calcular(){
         MET1.style.display="none"
         MET2.style.display="none"
     }
-    
     function segar(valor){
         if(valor>20){
             console.log(((valor-20)*20)+1500)

@@ -58,8 +58,7 @@ h1{
 .contenido2{
     
     width:250px;
-    height: 200px;
-    margin:10px 50px;
+    margin:10px 40px;
     font-size: medium;
     background-color:rgba(255,243,213);
     box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
@@ -111,6 +110,7 @@ button:active {
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
+    text-shadow: 2px 2px 5px rgba(255,243,213);
 }
 .detalle{
     color: rgb(255, 127, 168);
