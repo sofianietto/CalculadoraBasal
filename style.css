@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Josefin Sans';
+    background-image: url("imagen/degrade.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
-    color:black;
+    color:rgb(255, 255, 255);
+    font-family: 'kalnia';
 }
 #contenedor{
     width: 900px;
@@ -20,7 +26,9 @@ h1{
       0 10px 10px rgba(0,0,0,0.22);
   }
 #calculadora{
-    background: white;
+    background: rgb(255,127,168);
+    background: linear-gradient(180deg, rgba(255,127,168,1) 0%, rgba(255,243,213,1) 100%);
+      
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -28,14 +36,18 @@ h1{
 }
 
 #detalle{
-    background: rgb(210, 90, 148);
+    background: rgb(255,127,168);
+    background: linear-gradient(180deg, rgba(255,127,168,1) 0%, rgba(255,243,213,1) 100%);
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
     float: left;
-    color: #f6f5f7;
+    color: rgb(210, 90, 148);
+    text-align: center;
+
 }
-.contenido{
+.contenido1{
+    
     /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
     top: 50%;
@@ -43,6 +55,26 @@ h1{
     overflow: hidden;
     padding: 40px;
 }
+.contenido2{
+    
+    width:250px;
+    height: 200px;
+    margin:10px 50px;
+    font-size: medium;
+    background-color:rgba(255,243,213);
+    box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(255,127,168,1);
+    color: rgb(255, 127, 168); 
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+    font-weight: bold;
+}
+
 input {
 	width: 70%;
     padding: 12px 15px;
@@ -73,9 +105,16 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    font-family: 'Josefin Sans';
+    color: rgb(255, 127, 168);
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
+}
+.detalle{
+    color: rgb(255, 127, 168);
+    font-weight: bold;
+    display: none;
+    font-size: 17px ;
 }
